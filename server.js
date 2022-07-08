@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(cors({ origin: "*", credentials: true }));
-app.use(cors(logger("dev")));
+app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
