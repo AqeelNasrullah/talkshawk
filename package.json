@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "heroku-postbuild": "cd client && npm install",
     "start": "node server",
     "dev": "nodemon server"
   },
