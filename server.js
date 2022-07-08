@@ -44,6 +44,8 @@ const io = new Server(server, {
 io.on("connection", (socket) => {
   console.log(socket.id + " connected");
 
+  socket.emit("welcome", "Welcome " + socket.id);
+
   socket.on("load", (msg) => {
     console.log(msg + " " + socket.id);
   });
