@@ -1,0 +1,10 @@
+.btn-default {
+  background-color: var(--page-bg);
+  color: var(--white);
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: var(--placeholder-color) !important;
+  color: var(--white) !important;
+}

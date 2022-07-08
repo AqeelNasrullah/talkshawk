@@ -1,0 +1,6 @@
+.form-control {
+  background: transparent !important;
+  color: var(--placeholder-color) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

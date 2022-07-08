@@ -1,0 +1,15 @@
+:root {
+  --page-bg: #591415;
+  --page-bg-secondary: #9f2e36;
+  --placeholder-color: #efefef;
+  --white: white;
+}
+
+::selection {
+  background-color: yellowgreen;
+  color: white;
+}
+
+::placeholder {
+  color: var(--placeholder-color) !important;
+}

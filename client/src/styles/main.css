@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+@import "./settings.css";
+
+@import "./UI/formInput.css";
+@import "./UI/buttons.css";
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.primary-bg {
+  background-color: var(--page-bg);
+}
+
+.secondary-bg {
+  background-color: var(--page-bg-secondary);
+}
