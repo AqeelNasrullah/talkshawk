@@ -23,7 +23,7 @@ app.get(BASE_URL, (req, res) => {
   res.status(200).json({ message: "Server is up & running..." });
 });
 
-app.use(express.static(path.join(__dirname, "client", build)));
+app.use(express.static(path.join(__dirname, "client", "build")));
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
 });
